@@ -2,19 +2,19 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title> JC Dating App - Trust & Safety Demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spark - Trust & Safety Demo</title>
   <style>
-    /* Styling for mock dating app */
     body { 
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; 
       background-color: #fdfbf7; /* Warm Cream Background */
-      color: #2c2c2c; /* Soft Dark Slate Font Color */
+      color: #2c2c2c; 
       margin: 0; 
       padding: 0; 
     }
     header { 
-      background: #e63946; 
-      color: #ffffff; 
+      background: #0aa89a; /* Updated Teal Color */
+      color: #000000; /* Black Header Text */
       padding: 20px; 
       text-align: center; 
       font-size: 1.5rem; 
@@ -24,30 +24,34 @@
     }
     .container { 
       max-width: 440px; 
-      margin: 50px auto; 
+      margin: 40px auto; 
       background: #ffffff; 
       border-radius: 16px; 
       box-shadow: 0 8px 24px rgba(0,0,0,0.06); 
       overflow: hidden; 
       border: 1px solid #f0eae1;
+      text-align: center; 
     }
-    .profile-img { 
+    .profile-img-container { 
       width: 100%; 
-      height: 350px; 
-      background-color: #f2ede4; 
-      display: flex; 
-      align-items: center; 
-      justify-content: center; 
-      color: #7a7369; 
-      font-size: 1.3rem; 
-      font-weight: 500;
+      height: 380px; 
+      overflow: hidden;
+      background-color: #f2ede4;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .profile-img-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; 
     }
     .profile-info { 
       padding: 28px; 
     }
     .profile-info h2 { 
       margin: 0 0 8px 0; 
-      font-size: 1.8rem; 
+      font-size: 2.2rem; 
       color: #1a1a1a;
       font-weight: 700;
     }
