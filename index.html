@@ -15,30 +15,29 @@
   <!-- JC MOCK DATING APP INTERFACE -->
   <header>JC Dating App (T&S Demo)</header>
   <div class="card">
-    <h2>Alex, 28</h2>
+    <h2>Jamie </h2>
     <p>Safety Tip: Keep personal info private.</p>
   </div>
 
-  <!-- <script>
-  window.intercomSettings = {
-    api_base: "https://api-iam.intercom.io",
-    app_id: "kmg6huxk",
-  };
-</script>
-
-
-<script>
-  // We pre-filled your app ID in the widget URL: 'https://widget.intercom.io/widget/kmg6huxk'
-  (function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/kmg6huxk';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(document.readyState==='complete'){l();}else if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
-</script> -->
+ <!-- UNCOMMENTED INTERCOM SNIPPET -->
   <script>
     window.intercomSettings = {
-      app_id: "kmg6huxk"
+      api_base: "https://api-iam.intercom.io",
+      app_id: "kmg6huxk",
     };
   </script>
+
   <script>
-    // Intercom script loader code...
+    (function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/kmg6huxk';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(document.readyState==='complete'){l();}else if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
   </script>
 
 </body>
 </html>
+Steps to Apply the Fix:
+Copy the code block above.
+
+Go to GitHub, edit your index.html file, select everything, and paste this in.
+
+Click Commit changes....
+
+Wait 1 minute, open your live link (username.github.io/repo-name), and do a hard refresh (Cmd + Shift + R or Ctrl + F5).Verification: The chat bubble will pop up in the bottom right corner over your mock dating app UI.
